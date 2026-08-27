@@ -1,70 +1,168 @@
-# Getting Started with Create React App
+# CSI IMMANUEL Church Chithumoondradaippu - Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Church Information & Community Platform
 
-## Available Scripts
+Modern and responsive church website developed using React.js to provide church members and visitors with easy access to church information, worship schedules, history, media resources, prayer support, and community updates.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The CSI Immanuel Church Website serves as a digital platform for connecting church members, visitors, and the community. The application provides a professional and user-friendly interface that allows users to explore church activities, service timings, historical information, media resources, and prayer-related content from any device.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Home Page
+- Welcome section for visitors
+- Church introduction and highlights
+- Responsive landing page
 
-### `npm run build`
+### About the Church
+- Church vision and mission
+- Background information
+- Organizational details
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Worship Timings
+- Weekly worship schedules
+- Special event timings
+- Service information
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Church History
+- Detailed historical information
+- Dedicated Tamil history section
+- Heritage and growth journey
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Gallery
+- Church event photographs
+- Community activities
+- Special celebrations
 
-### `npm run eject`
+### Media Resources
+- Media and ministry content
+- Information sharing platform
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Prayer Support
+- Prayer information section
+- Community engagement support
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Location Information
+- Church address details
+- Visitor guidance
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Responsive Navigation
+- Smooth page navigation
+- Mobile-friendly design
+- Fast user experience
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Technology Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Technology | Purpose |
+|------------|---------|
+| React.js | Frontend Development |
+| React Router DOM | Client-Side Routing |
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript | Application Logic |
+| Node.js | Development Environment |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## Installation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Clone Repository
 
-### Analyzing the Bundle Size
+```bash
+git clone https://github.com/SeeniselvamB/CSI_Church_CMU_Website.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Navigate to Project Directory
 
-### Making a Progressive Web App
+```bash
+cd native-church-website
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Install Dependencies
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run Development Server
 
-### Deployment
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Application URL:
 
-### `npm run build` fails to minify
+```text
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+---
+
+## Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Home.js
+│   ├── About.js
+│   ├── GalleryPage.js
+│   ├── HistoryPage.js
+│   ├── TamilHistory.js
+│   ├── Timing.js
+│   ├── Prayer.js
+│   ├── Media.js
+│   ├── Location.js
+│   └── Navbar.js
+│
+├── styles/
+├── images/
+├── App.js
+└── index.js
+```
+
+---
+
+
+## Key Highlights
+
+- Professional Church Website
+- Fully Responsive Design
+- Easy Navigation
+- Organized Information Structure
+- Modern User Interface
+- React-Based Architecture
+- Optimized Performance
+
+---
+
+## Future Enhancements
+
+- Online Prayer Requests
+- Event Management System
+- Live Streaming Integration
+- Sermon Archive
+- Multi-language Support
+- Admin Dashboard
+
+---
+
+
+## License
+
+This project is available for educational, organizational, and church community purposes.

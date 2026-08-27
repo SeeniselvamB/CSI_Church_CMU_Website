@@ -104,7 +104,8 @@ function TamilHistory() {
             { name: 'Rev. G. சாம் செல்லப்பா', years: '2007' },
             { name: 'Rev. D. அன்புராஜ்', years: '2008' },
             { name: 'Rev. S. ஜோதிநாயகம்', years: '2009–2019' },
-            { name: 'Rev. R. காளிதாசன் பீட்டர்', years: '2019–Present' }
+            { name: 'Rev. R. காளிதாசன் பீட்டர்', years: '2019–2026' },
+            { name: 'Rev. A. தேவேந்திர குமார்', years: '2026–Present' }
           ].map((pastor, index) => (
             <tr key={index}>
               <td>{pastor.name}</td>

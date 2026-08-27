@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Link } from 'react-router-dom';
 import "../styles/About.css";
 import 'aos/dist/aos.css';
-import pasImage from "../limg.png";
+import pasImage from "../Rev.James.jpg";
 
 
 /** Small hook: fades/slides an element in once it scrolls into view */
